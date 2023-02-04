@@ -34,7 +34,13 @@ body *:after {
 .intro {
  color:white;
 }
-
+#shop {
+    color:white;
+    text-decoration: none;
+}
+#shop:hover {
+    color:#33b7bc;
+}
 
 .content {
     width: 90vmin;
@@ -161,25 +167,7 @@ h3 {
     background: linear-gradient(180deg, #fff0 59%, var(--dark) 0 100%);
 }
 
-.co-funder:after {
-    content: "CO-FUNDER";
-    font-size: 0.75em;
-    position: absolute;
-    top: -1.5em;
-    background: var(--yellow);
-    right: 4em;
-    transform: rotate(3deg);
-    padding: 0.35em 0.75em 0.5em;
-    border-radius: 0.25em;
-    color: var(--dark);
-    font-weight: bold;
-}
 
-.co-funder:nth-of-type(even):after {
-    right: inherit;
-    left: 4em;
-    transform: rotate(-3deg);
-}
 
 .description p a {
     display: inline-block;
