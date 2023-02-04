@@ -79,7 +79,7 @@ h2 {
     margin: 0;
 }
 
-.member {
+.livreaudio {
     margin: 1.5em 0 0.5em;
     padding: 0.73em;
     background: linear-gradient(83deg,
@@ -103,7 +103,7 @@ h2 {
 
 }
 
-.member:nth-of-type(even) {
+.livreaudio:nth-of-type(even) {
     text-align: right;
     background: linear-gradient(-83deg,
             var(--yellow) 0 97%,
@@ -126,7 +126,7 @@ h2 {
     padding: 0.5em;
 }
 
-.member:nth-of-type(even) .thumb {
+.livreaudio:nth-of-type(even) .thumb {
     --deg: 86deg;
     float: right;
     margin-left: 2em;
@@ -142,24 +142,24 @@ h2 {
     background: var(--dark);
 }
 
-.member:hover {
+.livreaudio:hover {
     transform: scale(1);
     transition: var(--trans);
     filter: drop-shadow(0px 20px 10px #0008);
 }
 
-.member:hover .thumb {
+.livreaudio:hover .thumb {
     padding: 0.1em;
     transition: var(--trans);
     transform: rotate(-1deg);
     --deg: -89deg;
 }
 
-.member:nth-of-type(even):hover .thumb {
+.livreaudio:nth-of-type(even):hover .thumb {
     --deg: 91deg;
 }
 
-.member:hover .thumb img {
+.livreaudio:hover .thumb img {
     filter: none;
     transition: var(--trans);
 }
@@ -188,7 +188,7 @@ h3 {
     transform-origin: left bottom;
 }
 
-.member:nth-of-type(even) h3 {
+.livreaudio:nth-of-type(even) h3 {
     left: inherit;
     right: 9vmin;
     transform: rotate(2deg);
@@ -196,7 +196,7 @@ h3 {
     background: linear-gradient(-182deg, #fff0 60%, var(--dark) 0 100%);
 }
 
-.member:hover h3 {
+.livreaudio:hover h3 {
     transition: var(--trans);
     transform: rotate(0deg);
     background: linear-gradient(180deg, #fff0 59%, var(--dark) 0 100%);
