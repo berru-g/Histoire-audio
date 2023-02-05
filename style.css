@@ -46,6 +46,12 @@ body *:after {
     display: inline-block;
     color:#289da1;
 }
+img, iframe {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
 
 
 
