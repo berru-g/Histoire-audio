@@ -1,7 +1,6 @@
 /*inspired by https://codepen.io/josetxu/pen/NWyZWoJ?editors=1100*/
 
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
-
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,600,700,800,900|Open+Sans:400,600');
 :root {
     --yellow: #fdcc29;
     --dark: #33b7bc;
@@ -16,7 +15,7 @@ body {
     overflow-x: hidden;
     display: flex;
     justify-content: center;
-    font-family: "Lato", Arial, Helvetica, serif;
+    font-family: "Nunito", sans-serif, serif;
     background: linear-gradient(90deg, #33b7bc, var(--dark) 35% 65%, #289da1);
     /* background-color: #e5e5f7;
     opacity: 0.8;
@@ -61,7 +60,7 @@ img, iframe {
     text-decoration: none;
     display: inline-block;
     margin: 0.5em 0 0 0;
-    background: var(--dark);
+    background: var(--light);
     color: var(--blue);
     padding: 0.1em 0.5em 0.35em;
     border-radius: 0.5em;
