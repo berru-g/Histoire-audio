@@ -5,6 +5,7 @@
 :root {
     --yellow: #fdcc29;
     --dark: #33b7bc;
+    --blue: #1e3fd2;
     --deg: -86deg;
     --trans: all 0.4s ease 0s;
 }
@@ -60,7 +61,7 @@ img, iframe {
     text-decoration: none;
     display: inline-block;
     margin: 0.5em 0 0 0;
-    background: var(--light);
+    background: var(--dark);
     color: var(--yellow);
     padding: 0.1em 0.5em 0.35em;
     border-radius: 0.5em;
@@ -69,7 +70,9 @@ img, iframe {
 }
 
 #shop:hover {
-    color: #258488;
+    color:var(--yellow);
+    background: var(--blue);
+
 }
 
 .content {
@@ -223,8 +226,8 @@ h3 {
 
 .description p a:hover {
     transition: var(--trans);
-    color: var(--dark);
-    background: var(--yellow);
+    color: var(--yellow);
+    background: var(--blue);
     font-weight: bold;
 }
 
