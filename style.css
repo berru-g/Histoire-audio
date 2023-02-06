@@ -62,7 +62,7 @@ img, iframe {
     display: inline-block;
     margin: 0.5em 0 0 0;
     background: var(--dark);
-    color: var(--yellow);
+    color: var(--blue);
     padding: 0.1em 0.5em 0.35em;
     border-radius: 0.5em;
     text-decoration: none;
@@ -71,7 +71,7 @@ img, iframe {
 
 #shop:hover {
     color:var(--yellow);
-    background: var(--blue);
+    background: var(--light);
 
 }
 
