@@ -171,8 +171,9 @@
   .categorie {
     width: 100%;
     height: 350px;
-    background: url('img/categorie.png') no-repeat center center/cover;
-   /* filter: blur(4px);*/
+   /* background: url('img/categorie.png') no-repeat center center/cover;
+    filter: blur(4px);*/
+    background-color: #fea000;
   }
   
   .categorie .content {
@@ -194,7 +195,7 @@
   
   /* Links */
   .links {
-    background: #f2f2f2;
+    background: #dbdbdb;
     color: #616161;
     font-size: 12px;
     padding: 35px 0;
@@ -217,7 +218,7 @@
   
   /* Footer */
   .footer {
-    background: #f2f2f2;
+    background: #dbdbdb;
     color: #616161;
     font-size: 12px;
     padding: 20px 0;
