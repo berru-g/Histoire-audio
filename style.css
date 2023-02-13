@@ -54,7 +54,8 @@
   }
   
   .main-nav ul li a:hover {
-    border-bottom: 2px solid #262626;
+    border-bottom: 2px solid #000dff;
+    color: #fea000;
   }
   
   .main-nav ul.main-menu {
@@ -103,7 +104,7 @@
   .showcase {
     width: 100%;
     height: 400px;
-    background: url('img/') no-repeat center center/cover;
+    background: url('img/intro.png') no-repeat center center/cover;
     display: flex;
     flex-direction: column;
     align-items: center;
