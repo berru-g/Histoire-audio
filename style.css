@@ -174,7 +174,7 @@
     height: 350px;
    /* background: url('img/categorie.png') no-repeat center center/cover;
     filter: blur(4px);*/
-    background-color: #fea000;
+    background-color: #0067b8;
     font-size: large;
   }
   
@@ -221,7 +221,7 @@
   /* Footer */
   .footer {
     background: #dbdbdb;
-    color: #616161;
+    color: #3e3d3d;
     font-size: 12px;
     padding: 20px 0;
   }
