@@ -1,0 +1,34 @@
+# Objectif SEO
+
+Site test d'affiliation de livre audio
+
+	 src audible, amazon
+
+## Dashboard
+
+
+
+ 
+
+    14/02/23 {
+             perf 89
+             Acce 85
+             B-P 83
+             SEO 100
+             }
+
+   
+ 
+    12/02/23 {
+	       perf 75
+	       Acce 70
+	       B-P 80
+	       SEO 93
+	       }
+	       
+			9/02/23 {
+				Création du site
+				achat domaine
+				DNS / SSL
+				
+
