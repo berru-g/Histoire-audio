@@ -208,7 +208,7 @@
   
   /* Links */
   .links {
-    background: #dbdbdb;
+    background: #fff;
     color: #616161;
     font-size: 12px;
     padding: 35px 0;
@@ -231,8 +231,8 @@
   
   /* Footer */
   .footer {
-    background: #dbdbdb;
-    color: #3e3d3d;
+    background: #3e3d3d;
+    color: #dbdbdb;
     font-size: 12px;
     padding: 20px 0;
   }
@@ -259,6 +259,8 @@
   .footer ul {
     display: flex;
     flex-wrap: wrap;
+    color: #dbdbdb;
+
   }
   
   .footer li {
@@ -266,6 +268,10 @@
     margin-bottom: 20px;
   }
   
+  footer a {
+    color: #dbdbdb;
+  }
+
   @media(max-width: 700px) {
     .menu-btn {
       display: block;
