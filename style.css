@@ -79,13 +79,14 @@
     border: 0;
     font-weight: bold;
     padding: 10px 20px;
-    background: #0066fe;
-    color: #fff;
+    background: #fff;
+    color: #0067b8;
     font-size: 15px;;
   }
   
   .btn:hover {
-    opacity: 0.9;
+    background: #0067b8;
+    color: #fff;
   }
   
   .dark {
@@ -96,16 +97,23 @@
     background: #f4f4f4;
     color: #333;
   }
+  .dark .btn:hover {
+    background: #0067b8;
+    color: #fff;
+  }
   #coupdecoeur {
     margin-top:2rem;
-    color: #0067b8;
+    color: white;
   }
   
   /* Showcase */
   .showcase {
     width: 100%;
     height: 400px;
-    background: url('img/intro.png') no-repeat center center/cover;
+  /*  background: url('img/intro.png') no-repeat center center/cover;*/
+    background-color: #0067b8;
+    color:white;
+    padding: 10px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
