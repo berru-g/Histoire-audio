@@ -11,6 +11,10 @@
     font-size: 15px;
     line-height: 1.5;
   }
+  .menu{
+    width:40px;
+    height:auto;
+  }
   .menu-btn {
   font-size: 1.5em;
   }
